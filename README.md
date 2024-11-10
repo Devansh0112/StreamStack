@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# StreamStack - Web3 Video Streaming Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**StreamStack** is a Web3-based video streaming application built using the Stacks blockchain. It allows users to access public videos, subscribe to exclusive content with STX payments, tip content creators and commenters, and interact in a decentralized environment. This MVP aims to combine decentralized finance (DeFi) principles with video content creation and consumption, creating new possibilities for monetization and engagement.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Public Videos**: Access to public video content available to all users.
+- **Exclusive Content**: Users can subscribe to exclusive videos by paying a fee in STX tokens.
+- **User Tipping**: Tip content creators and commenters using STX tokens.
+- **Stacks Wallet Integration**: Users can sign in/out with their Stacks Wallet.
+- **Suggested Videos**: Display suggestions for other videos along with view and subscriber counts.
+- **Responsive UI**: Built with React and styled using Bootstrap to provide a modern, responsive interface.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** for the front-end framework.
+- **Stacks.js** for blockchain interactions and wallet authentication.
+- **Bootstrap** and **React-Bootstrap** for styling and responsive UI.
+- **Clarity** smart contracts (for future enhancements, such as on-chain transactions).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+- Node.js (v14 or higher)
+- npm or yarn package manager
+- A Stacks Wallet for testing transactions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/streamstack.git
+    cd streamstack
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Application
 
-### `npm run eject`
+1. Start the development server:
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Sign In**: Use the "Sign In with Stacks" button to connect with your Stacks Wallet.
+- **Subscribe**: Click on the "Subscribe" button for exclusive content to pay with STX.
+- **Tip**: Tip content creators or commenters using the "Tip" button.
+- **Suggested Videos**: Browse through suggested content on the right sidebar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Future Enhancements
 
-## Learn More
+- **Clarity Smart Contracts**: Add smart contract interactions for on-chain payments and tipping.
+- **Enhanced Security**: Improve messaging security and encryption for decentralized content sharing.
+- **Video Uploads**: Allow creators to upload videos directly through the platform.
+- **Livestreaming**: Integrate livestreaming features with real-time tipping and interactions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🚀
