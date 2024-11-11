@@ -8,7 +8,7 @@ function PublicVideos({ isSignedIn, balance, setBalance }) {
   const video = {
     id: 1,
     title: 'Exclusive Content Video',
-    url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     subscribers: 3500,
     amount: 50,
   };
@@ -17,9 +17,9 @@ function PublicVideos({ isSignedIn, balance, setBalance }) {
   const [showModal, setShowModal] = useState(false);
 
   const [comments, setComments] = useState([
-    { id: 1, user: 'User1', text: 'Great content!', tips: 2 },
-    { id: 2, user: 'User2', text: 'Very informative.', tips: 1 },
-    { id: 3, user: 'User3', text: 'Love this video.', tips: 3 },
+    { id: 1, user: 'MisterWorldwide', text: 'Great content!', tips: 2 },
+    { id: 2, user: 'NotyourHomie', text: 'Very informative.', tips: 1 },
+    { id: 3, user: 'Zidane', text: 'Love this video.', tips: 3 },
   ]);
 
   const suggestedVideos = [
