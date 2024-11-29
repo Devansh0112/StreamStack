@@ -50,7 +50,7 @@
     yarn start
     ```
 
-2. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Open [StreamStack](https://stream-stack.vercel.app/) to view it in your browser.
 
 ### Usage
 
